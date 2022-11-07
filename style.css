@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100wh;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+header{
+    background-color: navy;   
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    padding: 20px;
+}
+.A1{
+    background-color: navy;
+    color: rgb(31, 197, 31);
+
+}
+.dropbtn {  
+    background-color: navy;  
+    color: white;  
+    padding: 10px;  
+    font-size: 12px;  
+}
+.dropdown {  
+    display: inline-block;  
+    position: relative  
+}
+.dropdown-content {  
+    position: absolute;  
+    background-color: navy;  
+    min-width: 200px;  
+    display: none;  
+    z-index: 1;  
+}
+.dropdown-content a {  
+    color: white;  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}
+.dropdown-content a:hover {  
+    background-color: rgb(21, 180, 21);  
+}  
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}  
+.dropdown:hover .dropbtn {  
+    background-color: blue;  
+}
+.comment-btn{
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+}
+.container{
+    width: 100wh;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap:20px;
+    padding: 20px;
+    overflow: auto;
+    resize: both;
+}
+
+.grid-itemsA{
+
+    border: 2px solid black;
+    word-break: break-all;
+    line-break: auto;
+}
+.grid-itemsA{
+
+    border: 2px solid black;
+    word-break: break-all;
+    line-break: auto;
+}
+.grid-itemsA{
+
+    border: 2px solid black;
+    word-break: break-all;
+    line-break: auto;
+}.grid-itemsB{
+
+    border: 2px solid black;
+    word-break: break-all;
+    line-break: auto;
+}
+.grid-itemsC{
+
+    border: 2px solid black;
+    word-break: break-all;
+    line-break: auto;
+}
+.grid-itemsD{
+
+    border: 2px solid black;
+    word-break: break-all;
+    line-break: auto;
+}
+.grid-itemsA{
+     grid-column: span 2;
+     height: auto;
+}
+.grid-itemB{
+    grid-column: span 4;
+}
+
+
